@@ -42,4 +42,3 @@ if __name__ == '__main__':
     Este script se encarga de inicializar la aplicación Flask y exponerla en el puerto 5000.
     """
     app.run(port=5000, debug=True)
-
