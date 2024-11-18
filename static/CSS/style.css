@@ -1,0 +1,78 @@
+body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+.weather-container {
+    background-color: #2d2d2d;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.weather-header {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #7eb6ff;
+}
+
+.weather-item i {
+    width: 25px;
+    color: #7eb6ff;
+    margin-right: 1rem;
+}
+
+.form-control {
+    background-color: #3d3d3d;
+    border-color: #4d4d4d;
+    color: #ffffff;
+}
+
+.form-control:focus {
+    background-color: #3d3d3d;
+    border-color: #7eb6ff;
+    outline: none;
+    color: #ffffff;
+    box-shadow: 0 0 0 0.25rem rgba(126, 182, 255, 0.25);
+}
+
+.form-label {
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+}
+
+.button {
+    background-color: #5c9bff;
+    border-color: #5c9bff;
+    color: #1a1a1a;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #7eb6ff;
+    border-color: #7eb6ff;
+}
+
+.btn-primary:hover {
+    background-color: #5c9bff;
+    border-color: #5c9bff;
+}
+
+.alert danger {
+    background-color: #f44336;
+    color: #ffffff;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
