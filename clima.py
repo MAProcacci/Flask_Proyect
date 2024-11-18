@@ -21,7 +21,7 @@ def obtener_clima(ciudad, units='metric'):
     # Creamos la URL base de la API de OpenWeatherMap.
     base_url = f"http://api.openweathermap.org/data/2.5/weather?"
     # Agregamos la clave de la API de OpenWeatherMap al URL.
-    api_key = '3796934179af73efc7d5213b80cda195'
+    api_key = '<Aqui va tu API Key de OpenWeatherMap>'
     # Agregamos la API key al URL para obtener los datos del clima.
     # El parámetro 'lang' se utiliza para especificar el idioma de la respuesta.
     # El parámetro 'units' se utiliza para especificar la unidad de medida (metric, imperial o standard).
