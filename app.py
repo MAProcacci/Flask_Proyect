@@ -1,3 +1,9 @@
+"""
+app.py
+
+Crea la aplicación Flask y define las rutas para la consulta del clima.
+"""
+
 from flask import Flask, render_template, request
 from clima import obtener_clima
 
@@ -31,9 +37,9 @@ def weather():
 # Ejecuta la aplicación en el puerto 5000. El argumento debug=True habilita la depuración de la aplicación.
 if __name__ == '__main__':
     """
-    Este código se ejecuta cuando se ejecuta este script directamente. En caso de ser importado como un módulo, este código no se ejecuta.
+    Este código se ejecuta cuando se ejecuta este script directamente. En caso de ser importado como un módulo, 
+    este código no se ejecuta.
     Este script se encarga de inicializar la aplicación Flask y exponerla en el puerto 5000.
     """
     app.run(port=5000, debug=True)
-
 

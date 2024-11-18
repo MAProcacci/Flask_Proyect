@@ -1,7 +1,15 @@
+"""
+clima.py
+
+Este módulo contiene funciones para obtener el clima de ciudades utilizando la API de OpenWeatherMap.
+
+"""
+
 import requests
 
 def obtener_clima(ciudad, units='metric'):
-    """Devuelve la temperatura actual en grados Celsius de la ciudad pasada como argumento.
+    """
+    Devuelve la temperatura actual en grados Celsius de la ciudad pasada como argumento.
 
     Args:
         ciudad (str): Nombre de la ciudad.
@@ -63,4 +71,3 @@ def obtener_clima(ciudad, units='metric'):
 weather = obtener_clima('Buenos Aires')
 print(weather)
 """
-
